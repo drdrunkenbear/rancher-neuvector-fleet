@@ -1,0 +1,5 @@
+crdwebhook:
+  enabled: true
+  type: ClusterIP
+openshift: false
+serviceAccount: neuvector

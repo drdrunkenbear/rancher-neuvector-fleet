@@ -2,9 +2,9 @@
 defaultNamespace: cattle-neuvector-system
 helm:
   releaseName: neuvector
-  repo: https://neuvector.github.io/neuvector-helm/charts
-  chart: core
-  version: 2.2.4
+  # repo: https://neuvector.github.io/neuvector-helm/charts
+  chart: https://github.com/brooksphilip/rancher-neuvector-fleet/blob/main/charts/neuvector-100.0.1+up2.2.2.tgz?raw=true
+  # version: 2.2.4
   valuesFiles:
     - values.yaml
   # values:

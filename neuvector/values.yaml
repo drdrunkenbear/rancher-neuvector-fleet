@@ -208,6 +208,6 @@ oem: null
 openshift: false
 psp: false
 rbac: true
-registry: docker.io
+# registry: docker.io
 resources: {}
 serviceAccount: neuvector

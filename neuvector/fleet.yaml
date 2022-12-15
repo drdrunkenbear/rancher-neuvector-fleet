@@ -4,7 +4,7 @@ helm:
   repo: https://neuvector.github.io/neuvector-helm/
   chart: core
   # version: 1.9.1  
-  releaseName: neuvector-crd
+  releaseName: core
   valuesFiles:
     - values.yaml
   # values:

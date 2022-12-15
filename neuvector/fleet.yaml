@@ -2,12 +2,12 @@
 defaultNamespace: cattle-neuvector-system
 helm:
   repo: https://neuvector.github.io/neuvector-helm/
-  chart: crd
+  chart: core
   version: 2.2.4
-  releaseName: crd
+  releaseName: core
   valuesFiles:
     - values.yaml
   # values:
   # extraArgs: {--dns01-recursive-nameservers-only: '', '--dns01-recursive-nameservers=8.8.8.8:53\': '', '1.1.1.1:53': ''}
-dependsOn:
-- name: neuvector-neuvector-crd
+# dependsOn:
+# - name: neuvector-neuvector-crd

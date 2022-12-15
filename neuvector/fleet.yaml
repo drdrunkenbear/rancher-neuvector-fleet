@@ -2,7 +2,7 @@
 defaultNamespace: cattle-neuvector-system
 helm:
   releaseName: crd
-  repo: https://neuvector.github.io/neuvector-helm/charts
+  repo: https://neuvector.github.io/neuvector-helm/
   chart: crd
   version: 2.2.4
   valuesFiles:

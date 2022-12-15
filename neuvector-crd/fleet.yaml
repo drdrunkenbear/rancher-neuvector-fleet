@@ -1,0 +1,9 @@
+
+defaultNamespace: cattle-neuvector-system
+helm:
+  repo: https://neuvector.github.io/neuvector-helm/
+  chart: crd
+  # version: 1.9.1  
+  releaseName: neuvector-crd
+  # values:
+  # extraArgs: {--dns01-recursive-nameservers-only: '', '--dns01-recursive-nameservers=8.8.8.8:53\': '', '1.1.1.1:53': ''}

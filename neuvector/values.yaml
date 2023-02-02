@@ -96,8 +96,8 @@ controller:
     accessModes:
       - ReadWriteMany
     capacity: null
-    enabled: true
-    storageClass: longhorn-crypto-global
+    enabled: false
+    storageClass: 
   ranchersso:
     enabled: true
   replicas: 3
@@ -150,7 +150,7 @@ cve:
     secure: false
 docker:
   path: /var/run/docker.sock
-  enabled: false
+  enabled: true
 enforcer:
   enabled: true
   image:
@@ -166,7 +166,7 @@ global:
   cattle:
     systemProjectId: p-zdhdl
 k3s:
-  enabled: true
+  enabled: false
   runtimePath: /run/k3s/containerd/containerd.sock
 manager:
   affinity: {}
